@@ -4,8 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-cpal = "0.18.2"
-symphonia = "0.6.1"
+audionimbus = {path = "crates/nexus-core/audionimbus"}
 
-[build-dependencies]
-bindgen = "0.73.2"
+[workspaces]
+members = [
+    ".",
+    "crates/nexus-core/audionimbus",
+    "crates/nexus-core/audionimbus-sys",
+    "crates/nexus-core/audionimbus/examples/core",
+]

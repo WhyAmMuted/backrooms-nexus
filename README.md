@@ -28,3 +28,6 @@
 Nexus может работать без Forge, но не может работать без .acm файлов
 Forge работает только с Nexus
 Composer работает сам по себе
+
+## Audionimbus
+nexus-core использует урезанную версию audionimbus (crates/nexus-core).
