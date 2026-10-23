@@ -1,3 +1,0 @@
-[submodule "crates/nexus-core"]
-	path = crates/nexus-core
-	url = https://github.com/WhyAmMuted/nexus-core.git
