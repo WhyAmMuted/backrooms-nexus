@@ -2,6 +2,9 @@ use std::{f32::consts::PI, time::Duration};
 
 pub mod audio_playback;
 pub mod error;
+pub mod sample_receiver;
+pub mod sieve;
+pub mod voice;
 fn main() {
     println!("Hello, world!");
     println!("{}", audionimbus::STEAMAUDIO_VERSION);

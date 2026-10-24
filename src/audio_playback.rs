@@ -9,7 +9,7 @@ const BUFFER_SIZE: usize = (1 << 16);
 
 pub struct AudioPlayback {
     prod: Producer<f32>,
-    stream: cpal::Stream,
+    // stream: cpal::Stream,
     pub sample_rate: u32,
 }
 
@@ -39,7 +39,7 @@ impl AudioPlayback {
 
         stream.play()?;
         Ok(Self {
-            stream: stream,
+            // stream: stream,
             sample_rate: sample_rate,
             prod: prod,
         })
